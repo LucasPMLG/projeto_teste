@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=s wap'); 
+
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box ; 
+    font-family: ' Outfit', monospace; 
+} 
+
+
+body{ 
+    background-image: url(https://wallpapercave.com/wp/wp11145900.jpg);
+    margin: 0 auto; 
+    height: 100vh; 
+    background-attachment: fixed;
+    background-size: cover;
+} 
+p{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+.SPCM{
+    width: 200px;    /* LARGURA */ 
+    height: 100px;  /* ALTURA */ 
+}
+#TITULO{
+    margin-left: 500px; 
+}
+
+h2{
+    margin-left: 320px;
+    color: white;
+    font-size: 25px;
+}
+#JCD{
+    height: 100px;
+    width: 140px;
+    opacity: 90%;
+}
+#LOGAS{
+    height: 50px;
+    width: 50px;
+}
+
+#LOG{
+    margin-bottom: 26px; 
+}
+
+div.ENTRADA{
+    background-color: rgb(0, 0, 0);
+    opacity: 70%;
+    width: 1365px;
+    height: 300px;
+    display: flex;
+}
+
+div.ENTRADA2{
+    background-color: rgb(0, 0, 0);
+    opacity: 70%;
+    width: 1365px;
+    height: 300px;
+    display: flex;
+}
+
+nav.menu-lateral{ 
+    width: 70px; 
+    height: 100%; 
+    background-color: rgb(22, 21, 21); 
+    padding: 40px 0 40px 1%; 
+    box-shadow: 3px 0 0 rgb(255, 255, 255); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    overflow: hidden; 
+    transition: .3s; 
+} 
+
+
+nav.menu-lateral:hover{ 
+    width: 350px; 
+} 
+
+.btn-expandir{ 
+    width: 100%; 
+    padding-left: 5px; 
+} 
+
+.btn-expandir >i{ 
+    color: white;
+    font-size: 28px; 
+    cursor: pointer; 
+} 
+
+ul{ 
+    list-style-type: none; height: 100%; 
+} 
+
+ul li.item-menu{ 
+    transition: .7s; 
+    margin-top: 18px
+} 
+
+ul li.item-menu:hover{ 
+    background: #b005db; 
+} 
+
+ul li.item-menu a{ 
+    color: white; 
+    text-decoration: none; font-size: 20px; 
+    padding: 18px 4%; 
+    display: flex; 
+    margin-bottom: 20px; 
+    line-height: 20px; 
+    width: 300px;
+} 
+
+ul li.item-menu a .txt-link{ 
+    margin-left: 30px; 
+} 
+
+ul li.item-menu a .iconS > i{ 
+    font-size: 30px; 
+} 
+
+
+html{ 
+font-family: Arial; 
+}

@@ -1,0 +1,19 @@
+
+*{
+    font-family: ' Outfit', sans-serif;
+}
+h1{
+    color: white;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp11145900.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}

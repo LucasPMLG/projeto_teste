@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Defina um estilo de fundo */
+        body {
+            background-image: url(https://wallpapercave.com/wp/wp11145900.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* Estilo para o conteúdo principal */
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /* Estilo para o fundo do cursor */
+        .cursor-background {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo do cursor */
+            border-radius: 50%;
+            mix-blend-mode: multiply;
+            pointer-events: none; /* Evita que o cursor bloqueie elementos abaixo */
+        }
+    </style>
+    <script>
+        // Adicione um ouvinte de evento de mousemove para rastrear o movimento do cursor
+        document.addEventListener('mousemove', (e) => {
+            const cursorBackground = document.querySelector('.cursor-background');
+            const mouseX = e.clientX;
+            const mouseY = e.clientY;
+
+           
+            document.body.style.backgroundPosition = mouseX + 'px ' + mouseY + 'px';
+        });
+    </script>
+    <title>Fundo Móvel com Cursor</title>
+</head>
+<body>
+    <div class="content">
+        <h1>TESTE</h1>
+        <p>MOVA O CURSOR</p>
+    </div>
+    <!-- Elemento para o fundo do cursor -->
+    <div class="cursor-background"></div>
+</body>
+</html>
