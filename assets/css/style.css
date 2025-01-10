@@ -50,16 +50,16 @@ h2{
 div.ENTRADA{
     background-color: rgb(0, 0, 0);
     opacity: 70%;
-    width: 1365px;
-    height: 300px;
+    width: 117rem;
+    height: 40rem;
     display: flex;
 }
 
 div.ENTRADA2{
     background-color: rgb(0, 0, 0);
     opacity: 70%;
-    width: 1365px;
-    height: 300px;
+    width: 117rem;
+    height: 30rem;
     display: flex;
 }
 
